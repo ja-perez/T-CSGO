@@ -1,0 +1,62 @@
+DUST_2    46 x 106
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nxxxxxxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnxxxxxxxxxxxxxxxnnnnn
+nxxx     xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnxx             xnnnnn
+nxxx   o xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnxxxxxxxxxxxxxxxxxxxxxxxx             xnnnnn
+nxxx     xxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnxo        ooo                        xnnnnn
+nxxx     xxxxxxxxxxxxxxxxxxxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnx                           o        xnnnnn
+nxxxo       2PPPPPPPPPP      xxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnx                  oo1PPPPPoo        xnnnnn
+nxxx        PPPPPPPPPPPPx     xxxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnx                  ooPPPPPPoo        xnnnnn
+nxxx    oo  PooPPPPPPooPx      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx      ooooooooooooooPPPPPPPo        xnnnnn
+nx      oo  PooPPPPPPPPPx                          xxxxxxxxxxxxx      ooo          oPPPPPPPo        xnnnnn
+nx                                                        xxxxxx      o            ooooooooo        xnnnnn
+nx                                                             ########                             xxxxxn
+nxx                     x                                     C########                                 xn
+nxx      o              x  oo                                  ########                              oo xn
+nxxxx   xxx      o   xxxxxxxxxxxxxx    xxx              xxxxxxxx      o                              oo xn
+nxxxx   xxx  o  oo  xxxxxxxxxxxxxxxxxxxxxx              xxxxxxxx   oooxxxxxxxxxxxxxxxxxxxxxx         oo xn
+nxxxx   xxx        xxxxxxxxxxxxxxxxxxxxxxx              xxxxxxxx   o  xnnnnnnnnnnnnnnnnnnnnx            xn
+nxxxx   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx     xxxxxxxxxxxxxx   o  xnnnnnnnnnnnnnnnnnnnnx        xxxxxn
+nxxxx   xxxxxxxxxxxx                                x                 xnnnnnnnnnnnnnnnnnnnnx        xnnnnn
+nxxxx         xxxxx                               oox                oxnnnnnnnnnnnnnnnnnnnnx        xnnnnn
+nx            xxxxx     xxxxxxxxxxxxxxxxxxxxx     oox    xxxxxxxxxxxxxxnnnnnnnnnnnnnnnnnnnnx        xnnnnn
+nx                     xxnnnnnnnnnnnnnnnnnnnx       x    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx        xnnnnn
+nx                     xxnnnnnnnnnnnnnnnnnnnx       o    xxnnnnnnnnnnnnxx      oooo                 xnnnnn
+nxxxxxxx        xxxxxxxxxnnnnnnnnnnnnnnnnnnnx       o    xxnnnnnnnnnnnnx                            xxxnnn
+nnnnnnnxx      xxnnnnnnnnnnnnnnnnnnnnnnnnnnnx       o    xxnnnnnnnnnnnnx                             xxnnn
+nnnnnnnxxx    xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnx            xxnnnnnnnnnnnnxx                             xnnn
+nnnnnnnxxx    xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnx            xxnnnnnnnnnnnnnxx                  o        xxnnn
+nxxxxxxxxx    xxxxxxxxxxnnnnnnnnnnnnnnnnnnnnx            xxnnnnnnnnnnnnnxx     xxxxxx       o       xxnnnn
+nnx  o          oo    xxnnnnnnnnnnnnnnnxxxxxx            xxxxxnnnnnnnnnnxx     xxnnnx       o       xnnnnn
+nnx                   xxnnnnnnnnnnnnnnnxx                 xxxxxxxxxxnnnnxx     xxnnnx       o       xnnnnn
+nnx                   xxnnnnnnnnnnnnnnnxx                         xxnnnnxx     xxnnnx       o       xnnnnn
+nnx                   xxnnnnnnnnnnnnnnnx                           xxxxxxx     xxnnnx       xxxxxxxxxnnnnn
+nnx                   xxnnnnnnnnnnnnnnnxx         xxxxxxxxxxx                   xnnnx       xxnnnnnnnnnnnn
+nnx                   xxnnnnnnnnnnnnnnnnxxxxx     xnnnnnnnnnxoo                 xnnnxxxxxxxxxxnnnnnnnnnnnn
+nnx      oooooooooooooxxnnnxxxxxnnnnnnnnnnnxx     xnnnnnnnnnxoo                 xnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx      ooo           xxxxx   xnnnnnnnnnnnxxo    xnnnnnnnnnx                   xnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx      ooo                   xnnnnnnnnnnnxxo    xnnnnnnnnnx                   xnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx      o                     xnnnnnnnnnnnxx     xnnnnnnnnnx                   xnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx      o                     xnnnnnnnnnnnxx     xxxxxxxxxxx            xxxxxxxxnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx      o                     xnnnnnnnnnnnxx                            xxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx      o                     xxxxxxxxxxxxxxoooooooooooooooo            xxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx                                                                        xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx                                          BT                            xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnx                                                                        xxnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+Key:
+#: Can only go horizontal or vertical depending on dir entered (ghetto mimic of tunnel/bridge)
+x: Wall (cannot shoot, see, or go through
+o: Obstacle (can see/shoot but can't pass through)
+blank space: is open space (can see, shoot, and walk through in any vertical, horizontal or diagonal direction)
+B: Bomb spawn and/or current location
+C: Counter-Terrorist Spawn Location (or active C AI player)
+T: Terrorist Spawn Location (or active C AI player)
+@: Player (so the player that you control)
+P: Area where you can plant bomb (free to walk around it)
+n: null area (basically a wall that isn't accessible, so to save memory, set it to null) 
+1: same as P but just to help indicate that this is A Site 
+2: same as P but just to help indicate that this is B Site
+G: Gun dropped by a player
